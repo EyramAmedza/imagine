@@ -137,8 +137,8 @@ Math.ceil(Math.random() * 1000000);
 
 
 // String concatenation
-const firstname = 'Annette';
-const lastname = 'Eyram';
+const firstname = 'Antoinette';
+const lastname = 'Amedza';
 firstname +' '+ lastname;
 // firstname.trim() + ' ' + lastname.trim();
 // To trim out spaces when typing out your name;
