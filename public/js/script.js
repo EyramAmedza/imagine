@@ -136,6 +136,38 @@ Math.ceil(Math.random() * 1000000);
 1200 + Number('250')
 
 
+// String concatenation
+const firstname = 'Annette';
+const lastname = 'Eyram';
+firstname +' '+ lastname;
+// firstname.trim() + ' ' + lastname.trim();
+// To trim out spaces when typing out your name;
+
+// Template literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+// String methods - to length
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+
+// String method - toUpperCase
+firstname.toUpperCase();
+lastname.toUpperCase();
+
+// String method - CharAt
+firstname.charAt(0);
+lastname.charAt(3);
+`${firstname.trim()} ${lastname.trim()}`.charAt(0);
+`${firstname.trim().charAt(0)}${lastname.trim().charAt(0)}`;
+
+
+// String conversion
+String(2014);
+
+
+
 
 
 
