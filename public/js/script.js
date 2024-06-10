@@ -168,6 +168,33 @@ String(2014);
 
 
 
+// Write a function that will add a participant to our Google Classroom 
+const participants = [];
+function addParticipant(email) {
+  // check if email was provided 
+  if(!email) {
+    return 'Email not provided!';
+  }
+  // Check if email is valid
+  if(!email.includes('@')) {
+   return 'Invalid email provided!';
+  }
+  // Add email to the participants;
+  participants.push(email);
+  // Notify them via email;
+  // return response
+  return 'Participant added';
+}
+addParticipant('anndekonor@gmail.com');
+
+
+
+// Arrays in JavaScript
+const alphabets = ['A', 'B', 'C', 'D'];
+alphabets;
+alphabets.join('');
+alphabets.join(' ');
+alphabets.join(' ').split(' ');
 
 
 
@@ -184,17 +211,8 @@ String(2014);
 
 
 
-//  const myButton = document.getElementById('btn');
-//  myButton.onclick = function () {
-//     const name = prompt('Enter your full name.');
-//     document.getElementById('name').innerText = name;
-//  }
 
-// const myButton = document.getElementById('btn');
-// myButton.onclick = function () {
-//     alert('You clicked me!');
-// }
 
-// document.getElementById('btn').onclick=function() {
-//     alert('You clicked me!');
-// }
+
+
+
